@@ -1,0 +1,450 @@
+﻿//Submit with label:
+{
+"fields": {
+   "project":
+   { 
+      "key": "REP"
+   },
+   "customfield_11000": "Reproduce thusly",
+   "customfield_11501": { "value":"UAT" },
+   "components": [{ "name":"Store Portal" }],
+   "versions": [{ "name":"SRS 1.6" }],
+   "summary": "Dan Test with Label",
+   "description": "Auto issue creation",
+   "issuetype": {
+      "name": "Bug"
+   },
+   "labels": ["ITSupport"]
+  }
+}
+
+
+//Full JSON:
+//To retrieve, go to http://jira.zalecorp.com:9000/rest/api/2/issue/28276
+//                or http://jira.zalecorp.com:9000/rest/api/2/issue/REP-273
+
+{  
+   "expand":"renderedFields,names,schema,transitions,operations,editmeta,changelog",
+   "id":"28276",
+   "self":"http://jira.zalecorp.com:9000/rest/api/2/issue/28276",
+   "key":"REP-273",
+   "fields":{  
+      "customfield_11200":null,
+      "customfield_12015":null,
+      "resolution":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/resolution/7",
+         "id":"7",
+         "description":"Fix verified and validated",
+         "name":"Fix Validated"
+      },
+      "customfield_11201":null,
+      "customfield_12014":null,
+      "customfield_12017":null,
+      "customfield_12016":null,
+      "customfield_10500":null,
+      "customfield_10501":"0.0",
+      "lastViewed":null,
+      "customfield_12001":null,
+      "priority":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/priority/5",
+         "iconUrl":"http://jira.zalecorp.com:9000/images/icons/priorities/trivial.png",
+         "name":"5-Minor",
+         "id":"5"
+      },
+      "customfield_10100":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/customFieldOption/10001",
+         "value":"No",
+         "id":"10001"
+      },
+      "labels":[  
+
+      ],
+      "customfield_11700":null,
+      "aggregatetimeoriginalestimate":null,
+      "timeestimate":0,
+      "versions":[  
+         {  
+            "self":"http://jira.zalecorp.com:9000/rest/api/2/version/11200",
+            "id":"11200",
+            "name":"RCS Integration",
+            "archived":true,
+            "released":true,
+            "releaseDate":"2015-08-03"
+         }
+      ],
+      "issuelinks":[  
+
+      ],
+      "assignee":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=klee1",
+         "name":"klee1",
+         "key":"klee1",
+         "emailAddress":"klee1@zalecorp.com",
+         "avatarUrls":{  
+            "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?avatarId=10122",
+            "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&avatarId=10122",
+            "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&avatarId=10122",
+            "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&avatarId=10122"
+         },
+         "displayName":"Karen Lee",
+         "active":true,
+         "timeZone":"America/Chicago"
+      },
+      "status":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/status/6",
+         "description":"The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+         "iconUrl":"http://jira.zalecorp.com:9000/images/icons/statuses/closed.png",
+         "name":"Closed",
+         "id":"6",
+         "statusCategory":{  
+            "self":"http://jira.zalecorp.com:9000/rest/api/2/statuscategory/3",
+            "id":3,
+            "key":"done",
+            "colorName":"green",
+            "name":"Done"
+         }
+      },
+      "components":[  
+         {  
+            "self":"http://jira.zalecorp.com:9000/rest/api/2/component/11132",
+            "id":"11132",
+            "name":"Store Portal"
+         }
+      ],
+      "customfield_10203":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/customFieldOption/10100",
+         "value":"ZMS",
+         "id":"10100",
+         "child":{  
+            "self":"http://jira.zalecorp.com:9000/rest/api/2/customFieldOption/10102",
+            "value":"RMS",
+            "id":"10102"
+         }
+      },
+      "customfield_10204":null,
+      "customfield_11413":null,
+      "customfield_11416":null,
+      "customfield_10602":null,
+      "customfield_11415":null,
+      "aggregatetimeestimate":0,
+      "creator":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=dkaschel",
+         "name":"dkaschel",
+         "key":"dkaschel",
+         "emailAddress":"Dan.Kaschel@signetjewelers.com",
+         "avatarUrls":{  
+            "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?avatarId=10122",
+            "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&avatarId=10122",
+            "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&avatarId=10122",
+            "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&avatarId=10122"
+         },
+         "displayName":"Dan Kaschel",
+         "active":true,
+         "timeZone":"America/Chicago"
+      },
+      "subtasks":[  
+
+      ],
+      "reporter":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=dkaschel",
+         "name":"dkaschel",
+         "key":"dkaschel",
+         "emailAddress":"Dan.Kaschel@signetjewelers.com",
+         "avatarUrls":{  
+            "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?avatarId=10122",
+            "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&avatarId=10122",
+            "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&avatarId=10122",
+            "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&avatarId=10122"
+         },
+         "displayName":"Dan Kaschel",
+         "active":true,
+         "timeZone":"America/Chicago"
+      },
+      "customfield_12101":null,
+      "customfield_12100":null,
+      "aggregateprogress":{  
+         "progress":1200,
+         "total":1200,
+         "percent":100
+      },
+      "customfield_12103":null,
+      "customfield_10200":null,
+      "customfield_12102":null,
+      "customfield_11412":null,
+      "customfield_10202":null,
+      "customfield_11411":null,
+      "customfield_12104":null,
+      "customfield_11403":null,
+      "customfield_11405":"0|i02m97:",
+      "customfield_11800":null,
+      "customfield_11407":null,
+      "customfield_11406":null,
+      "progress":{  
+         "progress":1200,
+         "total":1200,
+         "percent":100
+      },
+      "votes":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/issue/REP-273/votes",
+         "votes":0,
+         "hasVoted":false
+      },
+      "worklog":{  
+         "startAt":0,
+         "maxResults":20,
+         "total":1,
+         "worklogs":[  
+            {  
+               "self":"http://jira.zalecorp.com:9000/rest/api/2/issue/28276/worklog/16666",
+               "author":{  
+                  "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=rstevens",
+                  "name":"rstevens",
+                  "key":"rstevens",
+                  "emailAddress":"Randall.Stevens@signetjewelers.com",
+                  "avatarUrls":{  
+                     "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?ownerId=rstevens&avatarId=11604",
+                     "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&ownerId=rstevens&avatarId=11604",
+                     "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&ownerId=rstevens&avatarId=11604",
+                     "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&ownerId=rstevens&avatarId=11604"
+                  },
+                  "displayName":"Randall Stevens",
+                  "active":true,
+                  "timeZone":"America/Chicago"
+               },
+               "updateAuthor":{  
+                  "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=rstevens",
+                  "name":"rstevens",
+                  "key":"rstevens",
+                  "emailAddress":"Randall.Stevens@signetjewelers.com",
+                  "avatarUrls":{  
+                     "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?ownerId=rstevens&avatarId=11604",
+                     "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&ownerId=rstevens&avatarId=11604",
+                     "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&ownerId=rstevens&avatarId=11604",
+                     "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&ownerId=rstevens&avatarId=11604"
+                  },
+                  "displayName":"Randall Stevens",
+                  "active":true,
+                  "timeZone":"America/Chicago"
+               },
+               "comment":"Added the Display attribute to MessageType enum.",
+               "created":"2016-01-04T11:34:28.000-0600",
+               "updated":"2016-01-04T11:34:28.000-0600",
+               "started":"2016-01-04T11:33:00.000-0600",
+               "timeSpent":"20m",
+               "timeSpentSeconds":1200,
+               "id":"16666"
+            }
+         ]
+      },
+      "issuetype":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/issuetype/1",
+         "id":"1",
+         "description":"A problem which impairs or prevents the functions of the product.",
+         "iconUrl":"http://jira.zalecorp.com:9000/secure/viewavatar?size=xsmall&avatarId=11203&avatarType=issuetype",
+         "name":"Bug",
+         "subtask":false,
+         "avatarId":11203
+      },
+      "timespent":1200,
+      "project":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/project/10806",
+         "id":"10806",
+         "key":"REP",
+         "name":"Repair",
+         "avatarUrls":{  
+            "48x48":"http://jira.zalecorp.com:9000/secure/projectavatar?pid=10806&avatarId=10203",
+            "24x24":"http://jira.zalecorp.com:9000/secure/projectavatar?size=small&pid=10806&avatarId=10203",
+            "16x16":"http://jira.zalecorp.com:9000/secure/projectavatar?size=xsmall&pid=10806&avatarId=10203",
+            "32x32":"http://jira.zalecorp.com:9000/secure/projectavatar?size=medium&pid=10806&avatarId=10203"
+         },
+         "projectCategory":{  
+            "self":"http://jira.zalecorp.com:9000/rest/api/2/projectCategory/10000",
+            "id":"10000",
+            "description":"IT Dept Projects",
+            "name":"Zale IT Projects"
+         }
+      },
+      "customfield_11000":"Try to QA pass signet DSC repair.",
+      "customfield_11001":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=rstevens",
+         "name":"rstevens",
+         "key":"rstevens",
+         "emailAddress":"Randall.Stevens@signetjewelers.com",
+         "avatarUrls":{  
+            "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?ownerId=rstevens&avatarId=11604",
+            "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&ownerId=rstevens&avatarId=11604",
+            "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&ownerId=rstevens&avatarId=11604",
+            "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&ownerId=rstevens&avatarId=11604"
+         },
+         "displayName":"Randall Stevens",
+         "active":true,
+         "timeZone":"America/Chicago"
+      },
+      "aggregatetimespent":1200,
+      "customfield_11911":null,
+      "customfield_11910":null,
+      "customfield_11913":null,
+      "customfield_11912":null,
+      "resolutiondate":"2016-01-18T10:15:36.000-0600",
+      "customfield_11914":"Not started",
+      "customfield_11917":"",
+      "workratio":-1,
+      "watches":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/issue/REP-273/watchers",
+         "watchCount":0,
+         "isWatching":false
+      },
+      "customfield_12040":null,
+      "customfield_12042":null,
+      "created":"2015-12-30T17:29:30.000-0600",
+      "customfield_12041":null,
+      "customfield_12043":null,
+      "customfield_12200":null,
+      "customfield_12202":null,
+      "customfield_12201":null,
+      "customfield_10300":null,
+      "customfield_11502":null,
+      "customfield_11501":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/customFieldOption/10803",
+         "value":"Development Test",
+         "id":"10803"
+      },
+      "customfield_11504":null,
+      "customfield_11503":null,
+      "customfield_11902":null,
+      "customfield_11505":null,
+      "customfield_11906":null,
+      "customfield_11905":null,
+      "customfield_11908":null,
+      "customfield_11907":null,
+      "customfield_11909":null,
+      "updated":"2016-01-18T10:15:36.000-0600",
+      "timeoriginalestimate":null,
+      "description":"When user QA passes a signet DSC repair, the Receive method triggers the SendStatusUpdateToSignet method, which in turn references the GetDisplayName() method of the MessageType enum (as defined in EnumExtensions).  However there is no DisplayAttribute in the MessageType enum, so there is always an error.",
+      "customfield_12035":null,
+      "customfield_12034":null,
+      "customfield_12037":null,
+      "customfield_12036":null,
+      "timetracking":{  
+         "remainingEstimate":"0m",
+         "timeSpent":"20m",
+         "remainingEstimateSeconds":0,
+         "timeSpentSeconds":1200
+      },
+      "customfield_12038":null,
+      "customfield_11217":[  
+
+      ],
+      "attachment":[  
+
+      ],
+      "customfield_11617":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/customFieldOption/11005",
+         "value":"NA",
+         "id":"11005"
+      },
+      "customfield_11619":null,
+      "summary":"QA Pass on signet DSC repair results in .net error",
+      "customfield_12020":null,
+      "customfield_12022":null,
+      "customfield_12021":null,
+      "customfield_12023":null,
+      "customfield_11211":{  
+         "self":"http://jira.zalecorp.com:9000/rest/api/2/customFieldOption/10406",
+         "value":"1-Critical",
+         "id":"10406"
+      },
+      "customfield_12301":null,
+      "customfield_12300":null,
+      "customfield_10400":"<html>\r\n\r\n<body lang=EN-US style='tab-interval:.5in'>\r\n\r\n<div class=WordSection1>\r\n\r\n<h1><span style='font-size:12.0pt;line-height:115%;background:yellow;\r\nmso-highlight:yellow'> A Code Review must be set up in Crucible prior to passing the work request for review.</span><span style='font-size:12.0pt;\r\nline-height:115%'> <o:p></o:p></span></h1>\r\n\r\n</div>\r\n\r\n</body>\r\n\r\n</html>\r\n",
+      "customfield_11601":null,
+      "customfield_12019":null,
+      "customfield_12018":null,
+      "environment":null,
+      "customfield_11603":null,
+      "customfield_11602":null,
+      "customfield_11604":null,
+      "duedate":null,
+      "comment":{  
+         "startAt":0,
+         "maxResults":2,
+         "total":2,
+         "comments":[  
+            {  
+               "self":"http://jira.zalecorp.com:9000/rest/api/2/issue/28276/comment/78947",
+               "id":"78947",
+               "author":{  
+                  "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=rstevens",
+                  "name":"rstevens",
+                  "key":"rstevens",
+                  "emailAddress":"Randall.Stevens@signetjewelers.com",
+                  "avatarUrls":{  
+                     "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?ownerId=rstevens&avatarId=11604",
+                     "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&ownerId=rstevens&avatarId=11604",
+                     "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&ownerId=rstevens&avatarId=11604",
+                     "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&ownerId=rstevens&avatarId=11604"
+                  },
+                  "displayName":"Randall Stevens",
+                  "active":true,
+                  "timeZone":"America/Chicago"
+               },
+               "body":"Code was checked into REP-269 code branch",
+               "updateAuthor":{  
+                  "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=rstevens",
+                  "name":"rstevens",
+                  "key":"rstevens",
+                  "emailAddress":"Randall.Stevens@signetjewelers.com",
+                  "avatarUrls":{  
+                     "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?ownerId=rstevens&avatarId=11604",
+                     "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&ownerId=rstevens&avatarId=11604",
+                     "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&ownerId=rstevens&avatarId=11604",
+                     "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&ownerId=rstevens&avatarId=11604"
+                  },
+                  "displayName":"Randall Stevens",
+                  "active":true,
+                  "timeZone":"America/Chicago"
+               },
+               "created":"2016-01-04T11:35:39.000-0600",
+               "updated":"2016-01-04T11:35:39.000-0600"
+            },
+            {  
+               "self":"http://jira.zalecorp.com:9000/rest/api/2/issue/28276/comment/81782",
+               "id":"81782",
+               "author":{  
+                  "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=jtiffin",
+                  "name":"jtiffin",
+                  "key":"jtiffin",
+                  "emailAddress":"Jeff.Tiffin@signetjewelers.com",
+                  "avatarUrls":{  
+                     "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?ownerId=jtiffin&avatarId=11614",
+                     "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&ownerId=jtiffin&avatarId=11614",
+                     "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&ownerId=jtiffin&avatarId=11614",
+                     "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&ownerId=jtiffin&avatarId=11614"
+                  },
+                  "displayName":"Jeff Tiffin",
+                  "active":true,
+                  "timeZone":"America/Chicago"
+               },
+               "body":"Validated at POS when a repair is put through the PASS QA logic there is no application crash.",
+               "updateAuthor":{  
+                  "self":"http://jira.zalecorp.com:9000/rest/api/2/user?username=jtiffin",
+                  "name":"jtiffin",
+                  "key":"jtiffin",
+                  "emailAddress":"Jeff.Tiffin@signetjewelers.com",
+                  "avatarUrls":{  
+                     "48x48":"http://jira.zalecorp.com:9000/secure/useravatar?ownerId=jtiffin&avatarId=11614",
+                     "24x24":"http://jira.zalecorp.com:9000/secure/useravatar?size=small&ownerId=jtiffin&avatarId=11614",
+                     "16x16":"http://jira.zalecorp.com:9000/secure/useravatar?size=xsmall&ownerId=jtiffin&avatarId=11614",
+                     "32x32":"http://jira.zalecorp.com:9000/secure/useravatar?size=medium&ownerId=jtiffin&avatarId=11614"
+                  },
+                  "displayName":"Jeff Tiffin",
+                  "active":true,
+                  "timeZone":"America/Chicago"
+               },
+               "created":"2016-01-18T10:15:36.000-0600",
+               "updated":"2016-01-18T10:15:36.000-0600"
+            }
+         ]
+      }
+   }
+}
